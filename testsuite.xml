@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IG UI Automation">
+  
+  <test name="chrometest">
+  <parameter name="browser" value="chrome" />
+     <packages>
+      <package name="com.ig.automation.test" />
+      <package name="com.ig.automation.systemtest" />
+     </packages>
+  </test>
+  
+  <test name="ietest">
+  <parameter name="browser" value="ie" />
+    <packages>
+      <package name="com.ig.automation.test" />
+      <package name="com.ig.automation.systemtest" />
+   </packages>
+  </test>
+  
+</suite> 
+
